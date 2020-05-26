@@ -1,4 +1,4 @@
-# openapi_client.DocumentApi
+# docstore_python_client.DocumentApi
 
 All URIs are relative to *https://api.docstore.dev*
 
@@ -21,21 +21,21 @@ adds a new document
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import docstore_python_client
+from docstore_python_client.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.docstore.dev
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = docstore_python_client.Configuration(
     host = "https://api.docstore.dev"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with docstore_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DocumentApi(api_client)
-    document = openapi_client.Document() # Document | 
+    api_instance = docstore_python_client.DocumentApi(api_client)
+    document = docstore_python_client.Document() # Document | 
 
     try:
         # adds a new document
@@ -83,22 +83,22 @@ adds a new document by template
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import docstore_python_client
+from docstore_python_client.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.docstore.dev
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = docstore_python_client.Configuration(
     host = "https://api.docstore.dev"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with docstore_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DocumentApi(api_client)
+    api_instance = docstore_python_client.DocumentApi(api_client)
     template_uuid = 'template_uuid_example' # str | 
-template_data = openapi_client.TemplateData() # TemplateData | 
+template_data = docstore_python_client.TemplateData() # TemplateData | 
 
     try:
         # adds a new document by template
@@ -147,20 +147,20 @@ get latest updated documents
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import docstore_python_client
+from docstore_python_client.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.docstore.dev
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = docstore_python_client.Configuration(
     host = "https://api.docstore.dev"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with docstore_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DocumentApi(api_client)
+    api_instance = docstore_python_client.DocumentApi(api_client)
     uuid = 'uuid_example' # str | 
 env = 'env_example' # str | 
 
@@ -211,20 +211,20 @@ get latest updated documents
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import docstore_python_client
+from docstore_python_client.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.docstore.dev
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = docstore_python_client.Configuration(
     host = "https://api.docstore.dev"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with docstore_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DocumentApi(api_client)
+    api_instance = docstore_python_client.DocumentApi(api_client)
     
     try:
         # get latest updated documents
@@ -269,20 +269,20 @@ search for documents
 ```python
 from __future__ import print_function
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import docstore_python_client
+from docstore_python_client.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.docstore.dev
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = docstore_python_client.Configuration(
     host = "https://api.docstore.dev"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient() as api_client:
+with docstore_python_client.ApiClient() as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DocumentApi(api_client)
+    api_instance = docstore_python_client.DocumentApi(api_client)
     body = 'body_example' # str | 
 
     try:
